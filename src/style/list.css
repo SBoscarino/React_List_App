@@ -1,0 +1,73 @@
+body {
+  background-color: #EEE;
+}
+
+.app {
+  background-color: #FFF;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  border: solid 1px #777;
+  list-style-type: none;
+  padding: 10px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.app{
+  margin-top: 20px;
+  background: rgba(150, 50, 86, 0.2);
+}
+.header{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+.handwriting{
+  font-family: 'Calligraffitti', cursive;
+  font-size: 20px;
+}
+input{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 7px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(176, 116, 118, 1);
+  padding: 15px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(176, 116, 118, 1);
+}
+div {
+ padding: 3px;
+ margin-bottom: 2px;
+}
+
+div.completed {
+  color: black;
+   background: rgba(150, 50, 86, 0.6);
+   font-style: italic;
+}
